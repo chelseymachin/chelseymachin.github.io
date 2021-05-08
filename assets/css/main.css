@@ -2588,6 +2588,17 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+		.education {
+			font-size: .54em;
+		}
+
+
+		#contact a {
+			display: block;
+			margin-bottom: .6em;
+			padding-bottom: .4em;
+		}
+
 		/* Basic */
 
 			body, input, textarea, select {
