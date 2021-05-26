@@ -1802,6 +1802,13 @@ input, select, textarea {
 				width: auto;
 			}
 
+/* Videos */
+
+	video {
+		width: 75%;
+		height: 75%;
+	}
+
 /* List */
 
 	ul {
