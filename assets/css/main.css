@@ -1809,6 +1809,10 @@ input, select, textarea {
 		height: 75%;
 	}
 
+	.projectDescriptionContainer {
+		font-size: 0.9em;
+	}
+
 /* List */
 
 	ul {
