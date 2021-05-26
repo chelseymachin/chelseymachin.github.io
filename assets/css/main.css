@@ -1813,6 +1813,10 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
+	.projectDescriptionContainer a {
+		font-size: 1.5em;
+	}
+
 /* List */
 
 	ul {
@@ -2663,4 +2667,22 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+
+	.tool-language {
+		border-radius: 10px;
+		background-color: rgba(225, 182, 193, 0.8);
+		padding: 5px;
+	}
+
+	.tool-framework {
+		border-radius: 10px;
+		background-color: rgba(144, 238, 144, 0.8);
+		padding: 5px;
+	}
+
+	.tool-ide {
+		border-radius: 10px;
+		padding: 5px;
+		background-color: rgba(173, 216, 230, 0.8);
 	}
