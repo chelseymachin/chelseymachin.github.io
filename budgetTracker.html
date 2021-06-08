@@ -55,17 +55,27 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Budget Tracker</h2>
+								<h2 class="alt">React-Based Budget Application</h2>
+								<span class="tool-language">JavaScript</span>
+								<span class="tool-language">HTML</span>
+								<span class="tool-language">SASS</span>
+								<span class="tool-framework">React</span>
+								<span class="tool-framework">Bootstrap</span>
+
 							</header>
 							<div class="videoContainer">
 								<video controls>
-									<source src="#" type="video/mp4">
+									<source src="./videos/budgetAppVideo.mp4" type="video/mp4">
 								</video>
 							</div>
 							<div class="projectDescriptionContainer">
-								<p><u>Summary:</u></p>
+								<p><u>Summary:</u>
+									For now, it serves a simple purpose as a budget tracker for myself.  I've put in my sample budget and populated some default expenses into the application at start.  I can add expenses by simply entering a name and cost for them, and they can be deleted easily from the list as well. In the future, I have plans to make the budget an input space for the user to be able to play with different budgets to make it more customizable.  I plan on doing this by simply adding another input form like the add expense form at the bottom of the page that reloads and recalculates the budget based on the user's new input upon pressing enter.  I'll continue working on this budget and using it in my everyday life!
 
-								<p><u>Tech Specs:</u></p>
+								</p>
+								<p><u>Tech Specs:</u>
+									This program was built using custom React hooks and reusable components.  The simple UI is achieved using Bootstrap classes. Default expenses and the hardcoded budget amount appear at the initial application load.  When the user clicks the "Save" button or presses enter with bold fields filled, the item is automatically added to the list and reduced from the remainng budget amount above. If the user attempts to submit without either field filled, they are prevented from doing so and a small dialog box appears reminding them to input text. The "Remaining" field switches to red when the budget has been exceeded by expenses in the list below it.  The program recalculates at every deletion and insertion to the list.  As mentioned above, this application is still a work in progress and my next technical step on it will be adding another input form like the add expense form at the bottom of the page that reloads and recalculates the budget based on the user's new input upon pressing enter.
+								</p>
 							</div>
 
 						</div>
